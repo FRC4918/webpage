@@ -7,7 +7,7 @@
             #mainLogo{position:absolute;
 	    	top:50px;
 	    	left:100px;
-	    	background-color:rgb(224, 108, 25);
+	    	background-color:white;
 		border:2px solid black;
 	    }
 
@@ -111,37 +111,3 @@
 		z-index: 1;
 	    }
 	    .topBar:hover{background-color:rgb(255, 125, 0);}
-	    #activityT{
-		color: rgb(224, 108, 25);
-		position:absolute;
-		top:290px;
-		left:10%;
-	    }
-	    #activity{
-		position:absolute;
-		top:320px;
-		left:10%;
-		background-color:rgb(255, 235, 155);
-		width:20%;
-		height:300px;
-		padding:20px;
-		border:2px solid white;
-
-
-	    }
-	    #awards{
-		position: absolute;
-		Right:10%;
-		top:385px;
-		border:2px solid white;
-		width:50%;
-	    }
-	    tr{
-		background-color:rgb(255, 235, 155);
-	    }
-	    #awardsT{
-		color:rgb(224, 108, 25);
-		position:absolute;
-		top:342px;
-		right:34%;
-	    }
