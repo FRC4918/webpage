@@ -1,5 +1,5 @@
 
-		
+
             .hide{
 		color: rgb(224, 108, 25);
 	    }
@@ -24,7 +24,7 @@
             #title {background-color:rgb(224, 108, 25);
 		padding:20px;
 		position:absolute;
-		top:29px; 
+		top:29px;
 		left:256px;
 		border:2px solid black;
 		overflow:hidden;
@@ -87,11 +87,11 @@
 
                 top: 109px;right: 98px;
 	    }
-	    a,h1{
+	    h2 a{
 		color:black;
 		text-decoration: none;
 	    }
-	    a,h1:visited{
+	    h2 a:visited{
 		color:rgb(94, 94, 94);
 		text-decoration: none;
 	    }
