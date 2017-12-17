@@ -14,10 +14,14 @@
 				width: 25%;
 			}
   	}
-		#awards-activity-links{
-			margin-top: 200px;
+		@media (min-width:450px) {
+			#awards-activity-links{
 			margin-left: 10%;
 			margin-right: 10%;
+			}
+		}
+		#awards-activity-links{
+			margin-top: 250px;
 		}
 		#activityT{
 		color: rgb(224, 108, 25);

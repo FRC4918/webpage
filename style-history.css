@@ -1,15 +1,22 @@
-	    #historyI{
-		position:absolute;
-		top:250px;
-		left:15%;
-		width:67%;
-		text-indent:3px;
-		background-color:rgb(255, 235, 155);
-		border:2px solid white;
-
-		padding:10px;
-		margin:0px,0px,20px,0px;
-	    }
-	    p{
-		text-indent:30px;
-	    }
+@media (min-width: 450px) {
+	#historyI{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+@media (max-width:449px) {
+	#historyI{
+		left: 0px;
+	}
+}
+#historyI{
+	margin-top: 250px;
+	position:absolute;
+	text-indent:3px;
+	background-color:rgb(255, 235, 155);
+	border:2px solid white;
+	padding:10px;
+}
+p{
+	text-indent:30px;
+}

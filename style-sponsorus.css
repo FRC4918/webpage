@@ -1,7 +1,17 @@
+@media (min-width: 450px) {
+  #sponsorLogos{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 449px) {
+  .logo{
+    width:93%;
+  }
+}
 #sponsorLogos{
-  margin-left: 10%;
   margin-top: 250px;
-  margin-right: 10%;
+  position: absolute;
 }
 .logo{
   margin-left: 5px;
