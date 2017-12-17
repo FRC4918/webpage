@@ -1,4 +1,4 @@
-		@media (min-width: 1200px) {
+		@media (min-width: 1050px) {
 			#awards-activity-links{
 				display: flex;
 				flex-flow:row nowrap;
@@ -16,8 +16,8 @@
   	}
 		#awards-activity-links{
 			margin-top: 200px;
-			margin-left: 150px;
-			margin-right: 150px;
+			margin-left: 10%;
+			margin-right: 10%;
 		}
 		#activityT{
 		color: rgb(224, 108, 25);
