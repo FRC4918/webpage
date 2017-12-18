@@ -31,7 +31,7 @@
    #empty{
       top: 110px;
       left: calc(8.5% + 766px);
-      right: 100px;
+      right: 8.3%;
    }
    #homeLink{
       left: calc(8.5% + 156px);
@@ -49,7 +49,7 @@
       left: calc(8.5% + 624px);
    }
    #notShown{
-      right: calc(8.5% - 2px);
+      top: -100px;
    }
 }
 @media (max-width:974px) {
