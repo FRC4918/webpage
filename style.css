@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 975px) {
    #title{
       height:37px;
       width: calc(83% - 156px);
@@ -31,6 +31,7 @@
    #empty{
       top: 110px;
       left: calc(8.5% + 766px);
+      right: 100px;
    }
    #homeLink{
       left: calc(8.5% + 156px);
@@ -51,7 +52,7 @@
       right: calc(8.5% - 2px);
    }
 }
-@media (max-width:899px) {
+@media (max-width:974px) {
   @media (min-width:450px) {
     #title{
       left: 156px;
@@ -89,7 +90,8 @@
   }
   #empty{
     top: 119px;
-      left:610px;
+    left:610px;
+    right: 0px;
   }
   #homeLink{
     left: 0px;
