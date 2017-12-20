@@ -15,61 +15,44 @@
 			}
   	}
 		@media (min-width:450px) {
+			#activityWrapper{
+				width: 300px;
+			}
+			#linksWrapper{
+				width: 250px;
+			}
 			#awards-activity-links{
-			margin-left: 10%;
-			margin-right: 10%;
+				margin-left: 10%;
+				margin-right: 10%;
 			}
 		}
 		#awards-activity-links{
 			margin-top: 250px;
 		}
 		#activityT{
-		color: rgb(224, 108, 25);
-		/*position:absolute;
-		top:290px;
-		left:10%;*/
-	    }
-	    #activity{
-		/*position:absolute;
-		top:320px;
-		left:10%;*/
-		background-color:rgb(255, 235, 155);
-		/*width:20%;*/
-		height:300px;
-		padding:20px;
-		border:2px solid white;
-
-
-	    }
-	    #awards{
-		/*position: absolute;
-		Right:10%;
-		top:385px;*/
-		border:2px solid white;
-		/*width:50%;*/
-	    }
-	    tr{
-		background-color:rgb(255, 235, 155);
-	    }
-	    #awardsT{
-		color:rgb(224, 108, 25);
-		/*position:absolute;
-		top:342px;
-		right:34%;*/
-	    }
-	    #linksT{
-		color: rgb(224, 108, 25);
-		/*position:absolute;
-		top:700px;
-		left:10%;*/
-	    }
-	    #links{
-		/*position:absolute;
-		top:750px;
-		left:10%;*/
-		background-color:rgb(255, 235, 155);
-		/*width:20%;*/
-		padding:20px;
-		border:2px solid white;
-		overflow:auto;
-	    }
+			color: rgb(224, 108, 25);
+	  }
+	  #activity{
+			background-color:rgb(255, 235, 155);
+			height:300px;
+			padding:20px;
+			border:2px solid white;
+	  }
+	  #awards{
+			border:2px solid white;
+	  }
+	  tr{
+			background-color:rgb(255, 235, 155);
+	  }
+	  #awardsT{
+			color:rgb(224, 108, 25);
+	  }
+	  #linksT{
+			color: rgb(224, 108, 25);
+	  }
+	  #links{
+			background-color:rgb(255, 235, 155);
+			padding:20px;
+			border:2px solid white;
+			overflow:auto;
+	  }
