@@ -1,4 +1,4 @@
-		@media (min-width: 1500px) {
+		@media (min-width: 1250px) {
 			#awards-activity-links{
 				display: flex;
 				flex-flow:row nowrap;
