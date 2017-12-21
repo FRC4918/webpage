@@ -4,6 +4,11 @@
 		left:10%;
 	}
 }
+@media (max-width: 449px) {
+	#contactInfo{
+		width: 
+	}
+}
 #contactInfoT{
 		position:absolute;
 		top:250px;
