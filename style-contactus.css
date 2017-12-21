@@ -1,3 +1,9 @@
+@media (min-width: 450px) {
+	#contactInfo{
+		width:250px;
+		left:10%;
+	}
+}
 #contactInfoT{
 		position:absolute;
 		top:250px;
@@ -7,11 +13,8 @@
 #contactInfo{
 		position:absolute;
 		top:285px;
-		left:10%;
-		width:250px;
 		text-indent:3px;
 		background-color:rgb(255, 235, 155);
 		border:2px solid white;
 		padding:10px;
-		margin:0px,0px,20px,0px;
 }
