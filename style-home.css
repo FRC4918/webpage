@@ -28,6 +28,11 @@
 				margin-right: 10%;
 			}
 		}
+		@media (max-width:499px) {
+			#awardsWrapper{
+				overflow-x: auto;
+			}
+		}
 		#awards-activity-links{
 			margin-top: 250px;
 		}
