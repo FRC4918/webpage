@@ -1,23 +1,21 @@
 @media (min-width: 450px) {
 	#contactInfo{
 		width:250px;
-		left:10%;
+		margin-left:10%;
 	}
 }
 @media (max-width: 449px) {
 	#contactInfo{
-		width: 
+		margin-right: 10px;
 	}
 }
 #contactInfoT{
-		position:absolute;
-		top:250px;
-		left:10%;
+		margin-top: 250px;
+		margin-left:10%;
 		color:rgb(224, 108, 25);
 }
 #contactInfo{
-		position:absolute;
-		top:285px;
+		margin-top:285px;
 		text-indent:3px;
 		background-color:rgb(255, 235, 155);
 		border:2px solid white;

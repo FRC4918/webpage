@@ -6,7 +6,7 @@
 }
 @media (max-width:449px) {
 	#historyI{
-		left: 0px;
+		margin-right: 10px;
 	}
 }
 #historyI{

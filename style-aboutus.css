@@ -4,14 +4,8 @@
 		margin-right: 10%;
 	}
 }
-@media (max-width:449px) {
-	#aboutUsp{
-		left: 0px;
-	}
-}
 #aboutUsp{
 	margin-top: 250px;
-	position:absolute;
 	text-indent:3px;
 	background-color:rgb(255, 235, 155);
 	border:2px solid white;
