@@ -127,7 +127,8 @@
 	  color: rgb(224, 108, 25);
 }
 body {
-    background-color:rgb(7, 74, 74);
+    background-color:rgb(50, 74, 74);
+    /*background-color:rgb(7, 74, 74);*/
 }
 .topBar {
 	  background-color: rgb(224, 108, 25);
