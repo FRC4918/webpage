@@ -11,6 +11,7 @@
        width:8.5%;
        height:100%;
        background-color:black;
+       z-index: 3;
    }
    #pageCutOffR{
        position: fixed;
@@ -127,7 +128,7 @@
 	  color: rgb(224, 108, 25);
 }
 body {
-    background-color:rgb(50, 74, 74);
+    background-color:rgb(65, 74, 74);
     /*background-color:rgb(7, 74, 74);*/
 }
 .topBar {
@@ -198,4 +199,14 @@ h3{
 p{
   background-color: rgb(255, 235, 155);
   border: solid white;
+}
+.warning{
+  background-color: red;
+}
+#UC{
+  color: white;
+  z-index: 4;
+}
+h5{
+  z-index: 4;
 }
