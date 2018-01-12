@@ -5,3 +5,27 @@
   background-color:rgb(255, 235, 155);
   border:2px solid white;
 }
+<<<<<<< HEAD
+=======
+@media (min-width: 450px) {
+	#notShownI{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+  #notShownIT{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+  #notShownET{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+  .warning{
+    margin-left: 10%;
+		margin-right: 10%;
+  }
+}
+p,ul{
+  width: 250px;
+}
+>>>>>>> master
