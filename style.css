@@ -1,147 +1,212 @@
+@media (min-width: 975px) {
+   #title{
+      height:37px;
+      width: calc(83% - 156px);
+	    left:calc(8.5% + 156px);
+	    top:29px;
+   }
+   #pageCutOffL{
+       position: fixed;
+       top:0px;left:0px;
+       width:8.5%;
+       height:100%;
+       background-color:black;
+       z-index: 3;
+   }
+   #pageCutOffR{
+       position: fixed;
+       top:0px;right:0px;
+       width:8.5%;
+       height:100%;
+       background-color:black;
+       z-index: 3;
+   }
+   #mainLogo{
+      top:50px;
+      left:8.5%;
+   }
+   .topBar{
+      top: 109px;
+      overflow: hidden;
+   }
+   #empty{
+      top: 110px;
+      left: calc(8.5% + 766px);
+      right: 8.3%;
+   }
+   #homeLink{
+      left: calc(8.5% + 156px);
+   }
+   #aboutUsLink{
+      left: calc(8.5% + 245px);
+   }
+   #history{
+      left: calc(8.5% + 370px);
+   }
+   #sponserUs{
+      left: calc(8.5% + 479px);
+   }
+   #contactUs{
+      left: calc(8.5% + 624px);
+   }
+   #notShown{
+      top: -100px;
+   }
+}
+@media (max-width:974px) {
+  @media (min-width:450px) {
+    #title{
+      left: 156px;
+    }
+  }
+  #mainLogo{
+    top:0%;
+    left:0%;
+  }
+  #title{
+      /*width: calc(100% - 156px);*/
+      top: -21px;
+      height: 96px;
+      right: 0px;
+  }
+    #pageCutOffL{
+      position: fixed;
+      top:0px;left:0px;
+      width:0%;
+      height:0%;
+      background-color:black;
+  }
+  #pageCutOffR{
+      position: fixed;
+      top:0px;right:0px;
+      width:0%;
+      height:0%;
+      background-color:black;
+      z-index: 1;
+  }
+  .topBar{
+    top: 118px;
+    overflow: hidden;
+    line-height: 1.3em;
+  }
+  #empty{
+    top: 119px;
+    left:610px;
+    right: 0px;
+  }
+  #homeLink{
+    left: 0px;
+  }
+  #aboutUsLink{
+     left: 89px;
+  }
+  #history{
+     left: 214px;
+  }
+  #sponserUs{
+    left: 323px;
+  }
+  #contactUs{
+     left: 468px;
+  }
+  #notShown{
+     right:0px;
+  }
+}
+@media (max-width: 449px;) {
+  #title{
+    left: 0px;
+  }
+}
+#mainLogo{
+    position:fixed;
+    background-color:white;
+    border:2px solid black;
+    z-index: 1;
+}
+.hide{
+	  color: rgb(224, 108, 25);
+}
+body {
+    background-color:rgb(65, 74, 74);
+    /*background-color:rgb(7, 74, 74);*/
+}
+.topBar {
+	  background-color: rgb(224, 108, 25);
+	  padding:15px;
+	  height:27px;
+    z-index: 2;
+}
+#title {background-color:rgb(224, 108, 25);
+     padding:20px;
+	   position:fixed;
+	   border:2px solid black;
+     z-index: 2;
+}
+#homeLink{
+	   border:2px solid black;
+     position:fixed;
+}
+#aboutUsLink{
+    border:2px solid black;
+    position:fixed;
+}
+#history{
+    border:2px solid black;
+    position:fixed;
+}
+#sponserUs{
+	  border:2px solid black;
+    position:fixed;
+}
+#contactUs{
+	  border:2px solid black;
+  position:fixed;
+}
+#empty{
+	  border:2px solid black;
+    position:fixed;
+	  overflow:hidden;
+	  background-color: rgb(224, 108, 25);
+	  padding:15px;
+	  height:27px;
+    z-index: 2
+}
+#notShown{
+	  border:2px solid black;
+    position:fixed;
+}
+h2 a{
+	  color:rgb(94, 94, 94);
+	  text-decoration: none;
+}
+h2 a:visited{
+	  color:rgb(94, 94, 94);
+	  text-decoration: none;
+}
+.topBar:hover{background-color:rgb(255, 125, 0);}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+@media (max-width:650px) {
 
-		
-            .hide{
-		color: rgb(224, 108, 25);
-	    }
-
-            #mainLogo{position:absolute;
-	    	top:50px;
-	    	left:100px;
-	    	background-color:rgb(224, 108, 25);
-		border:2px solid black;
-	    }
-
-            body {
-	    	background-color:rgb(12, 74, 74);
-	    }
-
-            .topBar {
-		background-color: rgb(224, 108, 25);
-		padding:15px;
-		height:27px;
-	    }
-
-            #title {background-color:rgb(224, 108, 25);
-		padding:20px;
-		position:absolute;
-		top:29px; 
-		left:256px;
-		border:2px solid black;
-		overflow:hidden;
-		height:37px;
-	    }
-
-            #homeLink{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 109px;
-		left: 256px;
-	    }
-
-            #aboutUsLink{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 109px;left: 345px;
-	    }
-
-	    #history{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 109px;left: 470px;
-	    }
-	    #sponserUs{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 109px;left: 579px;
-	    }
-	    #contactUs{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 109px;left: 724px;
-	    }
-	    #empty{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 110px;left: 866px;
-		overflow:hidden;
-		background-color: rgb(224, 108, 25);
-		padding:15px;
-		height:27px;
-	    }
-	    #notShown{
-		border:2px solid black;
-
-                position:absolute;
-
-                top: 109px;right: 98px;
-	    }
-	    a,h1{
-		color:black;
-		text-decoration: none;
-	    }
-	    a,h1:visited{
-		color:rgb(94, 94, 94);
-		text-decoration: none;
-	    }
-	    #pageCutOffL{
-		position: fixed;
-		top:0px;left:0px;
-		width:100px;
-		height:100%;
-		background-color:black;
-	    }
-	    #pageCutOffR{
-		position: fixed;
-		top:0px;right:0px;
-		width:100px;
-		height:100%;
-		background-color:black;
-		z-index: 1;
-	    }
-	    .topBar:hover{background-color:rgb(255, 125, 0);}
-	    #activityT{
-		color: rgb(224, 108, 25);
-		position:absolute;
-		top:290px;
-		left:10%;
-	    }
-	    #activity{
-		position:absolute;
-		top:320px;
-		left:10%;
-		background-color:rgb(255, 235, 155);
-		width:20%;
-		height:300px;
-		padding:20px;
-		border:2px solid white;
-
-
-	    }
-	    #awards{
-		position: absolute;
-		Right:10%;
-		top:385px;
-		border:2px solid white;
-		width:50%;
-	    }
-	    tr{
-		background-color:rgb(255, 235, 155);
-	    }
-	    #awardsT{
-		color:rgb(224, 108, 25);
-		position:absolute;
-		top:342px;
-		right:34%;
-	    }
+}
+h3{
+  color: rgb(224, 108, 25);
+}
+p{
+  background-color: rgb(255, 235, 155);
+  border: solid white;
+}
+.warning{
+  background-color: red;
+}
+#UC{
+  color: white;
+  z-index: 4;
+}
+h5{
+  z-index: 4;
+}

@@ -1,0 +1,66 @@
+		@media (min-width: 1250px) {
+			#awards-activity-links{
+				display: flex;
+				flex-flow:row nowrap;
+				justify-content: space-around;
+			}
+			#activityWrapper{
+				width: 25%;
+			}
+			#awardsWrapper{
+				width: 40%;
+				margin-top: 100px;
+			}
+			#linksWrapper{
+				margin-top: 50px;
+				width: 25%;
+			}
+  	}
+		@media (min-width:450px) {
+			#activityWrapper{
+				width: 300px;
+			}
+			#linksWrapper{
+				width: 250px;
+			}
+			#awards-activity-links{
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+		}
+		@media (max-width:499px) {
+			#awardsWrapper{
+				overflow-x: auto;
+			}
+		}
+		#awards-activity-links{
+			margin-top: 250px;
+		}
+		#activityT{
+			color: rgb(224, 108, 25);
+	  }
+	  #activity{
+			background-color:rgb(255, 235, 155);
+			height:300px;
+			padding:20px;
+			border:2px solid white;
+			overflow-y: auto;
+	  }
+	  #awards{
+			border:2px solid white;
+	  }
+	  tr{
+			background-color:rgb(255, 235, 155);
+	  }
+	  #awardsT{
+			color:rgb(224, 108, 25);
+	  }
+	  #linksT{
+			color: rgb(224, 108, 25);
+	  }
+	  #links{
+			background-color: rgb(255, 235, 155);
+			padding:20px;
+			border:2px solid white;
+			overflow:auto;
+	  }
