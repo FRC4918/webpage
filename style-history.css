@@ -14,3 +14,23 @@
 p{
 	text-indent:30px;
 }
+@media (min-width:730px) {
+	#comp17vid{
+		width:533px;
+		height:300px;
+	}
+}
+@media (min-width:360px) {
+	@media (max-width:729px) {
+		#comp17vid{
+			width:267px;
+			height:150px;
+		}
+	}
+}
+@media (max-width:359px) {
+	#comp17vid{
+		width:214px;
+		height:120px;
+	}
+}
