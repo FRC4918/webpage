@@ -1,22 +1,14 @@
 @media (min-width: 450px) {
-<<<<<<< HEAD
-	#aboutUsp{
-=======
 	/*#aboutUsp{
 		margin-left: 10%;
 		margin-right: 10%;
 	}*/
 	#aboutUsWrapper{
->>>>>>> master
 		margin-left: 10%;
 		margin-right: 10%;
 	}
 }
-<<<<<<< HEAD
-#aboutUsp{
-=======
 #aboutUsWrapper{
->>>>>>> master
 	margin-top: 250px;
 	text-indent:3px;
 	background-color:rgb(255, 235, 155);
