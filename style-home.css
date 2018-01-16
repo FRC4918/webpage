@@ -64,3 +64,6 @@
 			border:2px solid white;
 			overflow:auto;
 	  }
+		#blank{
+			color: rgb(224, 108, 25);
+		}
