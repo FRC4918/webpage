@@ -197,7 +197,7 @@ h3{
   color: rgb(224, 108, 25);
 }
 p{
-  background-color: rgb(255, 235, 155);
+  background-color: rgb(255, 235, 155)/*black*/;
   border: solid white;
 }
 .warning{
