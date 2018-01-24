@@ -212,6 +212,7 @@ p{
 @media (min-width:450px) {
     #UC{
         margin-left: 5%;
+        margin-left: 10%;
     }
     #title{
       left: 152px;
