@@ -1,11 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
 @media (min-width: 975px) {
-   #title{
-      height:37px;
-      width: calc(83% - 156px);
-	    left:calc(8.5% + 156px);
-	    top:29px;
-   }
-   #pageCutOffL{
+  header{
+     height: 136px;
+  }
+  #title{
+     width: calc(100% - 152px);
+     top: 0px;
+     margin-top: 0px;
+     height: 96px;
+     /*width: calc(83% - 156px);
+	   left:calc(8.5% + 156px);
+	   top:29px;*/
+  }
+   /*#pageCutOffL{
        position: fixed;
        top:0px;left:0px;
        width:8.5%;
@@ -21,10 +31,11 @@
        background-color:black;
        z-index: 3;
    }
-   #mainLogo{
-      top:50px;
-      left:8.5%;
-   }
+   */#mainLogo{
+      /*top:50px;
+      left:8.5%;*/
+      left: 0px;
+   }/*
    .topBar{
       top: 109px;
       overflow: hidden;
@@ -48,17 +59,17 @@
    }
    #contactUs{
       left: calc(8.5% + 624px);
-   }
-   #notShown{
+   }*/
+   /*#notShown{
       top: -100px;
+   }*/
+   #topBarW{
+      left: 152px;
+      width: calc(100% - 152px);
    }
+
 }
 @media (max-width:974px) {
-  @media (min-width:450px) {
-    #title{
-      left: 156px;
-    }
-  }
   #mainLogo{
     top:0%;
     left:0%;
@@ -66,8 +77,8 @@
   #title{
       /*width: calc(100% - 156px);*/
       top: -21px;
-      height: 96px;
       right: 0px;
+      height: 136px;
   }
     #pageCutOffL{
       position: fixed;
@@ -109,17 +120,14 @@
   #contactUs{
      left: 468px;
   }
-  #notShown{
+/*  #notShown{
      right:0px;
-  }
-}
-@media (max-width: 449px;) {
-  #title{
-    left: 0px;
+  }*/
+  #topBarW{
+    width: 100%;
   }
 }
 #mainLogo{
-    position:fixed;
     background-color:white;
     border:2px solid black;
     z-index: 2;
@@ -128,54 +136,34 @@
 	  color: rgb(224, 108, 25);
 }
 body {
-    background-color:rgb(65, 74, 74);
+    background-color: /*rgb(65, 74, 74)*/black;
+    margin: 0px;
     /*background-color:rgb(7, 74, 74);*/
 }
 .topBar {
 	  background-color: rgb(224, 108, 25);
-	  padding:15px;
-	  height:27px;
     z-index: 2;
+    margin: 0 0 0 24px;
 }
-#title {background-color:rgb(224, 108, 25);
+#title {
+     background-color:rgb(224, 108, 25);
      padding:20px;
-	   position:fixed;
+	   position:absolute;
 	   border:2px solid black;
      z-index: 2;
 }
-#homeLink{
-	   border:2px solid black;
-     position:fixed;
-}
-#aboutUsLink{
-    border:2px solid black;
-    position:fixed;
-}
-#history{
-    border:2px solid black;
-    position:fixed;
-}
-#sponserUs{
+/*#empty{
 	  border:2px solid black;
-    position:fixed;
-}
-#contactUs{
-	  border:2px solid black;
-  position:fixed;
-}
-#empty{
-	  border:2px solid black;
-    position:fixed;
 	  overflow:hidden;
 	  background-color: rgb(224, 108, 25);
 	  padding:15px;
 	  height:27px;
     z-index: 2
-}
-#notShown{
+}*/
+/* #notShown{
 	  border:2px solid black;
     position:fixed;
-}
+}*/
 h2 a{
 	  color:rgb(94, 94, 94);
 	  text-decoration: none;
@@ -184,20 +172,31 @@ h2 a:visited{
 	  color:rgb(94, 94, 94);
 	  text-decoration: none;
 }
-.topBar:hover{background-color:rgb(255, 125, 0);}
+.topBar:hover{
+  background-color:rgb(255, 125, 0);
+}
 .wrapper{
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(65, 74, 74);
+  padding: 1px
 }
-@media (max-width:650px) {
+header{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  top: 0px;
+  background-color: rgb(65, 74, 74);
+}
 
-}
 h3{
   color: rgb(224, 108, 25);
 }
 p{
-  background-color: rgb(255, 235, 155)/*black*/;
+  background-color: rgb(255, 235, 155);
   border: solid white;
 }
 .warning{
@@ -205,14 +204,46 @@ p{
 }
 #UC{
   z-index: 1;
-  margin-top: 200px;
-  position: absolute;
   background-color: yellow;
   border: solid white;
   padding: 2px;
+  width: 190px;
 }
 @media (min-width:450px) {
-  #UC{
-      margin-left: 10%;
+    #UC{
+        margin-left: 10%;
+    }
+    #title{
+      left: 152px;
+    }
+  }
+  #topBarW{
+    background-color:rgb(224, 108, 25);
+    position:absolute;
+    border:2px solid black;
+    z-index: 2;
+    bottom: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow:row wrap;
+  }
+
+@media (min-width:565px) {
+  #topBarW{
+    height: 58px;
+  }
+}
+@media (min-width:595px) and (max-width: 974px) {
+  header{
+    height: 192px;
+  }
+}
+@media (max-width:595px) {
+  header{
+    height: 240px;
+  }
+  #topBarW{
+    height: 106px;
   }
 }
