@@ -145,7 +145,7 @@ body {
     z-index: 2;
     margin: 0 0 0 24px;
 }
-#title {
+#title{
      background-color:rgb(224, 108, 25);
      padding:20px;
 	   position:absolute;
@@ -168,9 +168,9 @@ h2 a{
 	  color:rgb(94, 94, 94);
 	  text-decoration: none;
 }
-h2 a:visited{
-	  color:rgb(94, 94, 94);
-	  text-decoration: none;
+h2.active a{
+  color: black;
+  /*text-decoration: underline;*/
 }
 .topBar:hover{
   background-color:rgb(255, 125, 0);
