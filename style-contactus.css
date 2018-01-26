@@ -1,8 +1,7 @@
 @media (min-width: 450px) {
 	#contactInfo{
-		width:275px;
+		width:335px;
 		margin-left:10%;
-		line-height: 2em;
 	}
 }
 @media (max-width: 449px) {
@@ -20,4 +19,5 @@
 		background-color:rgb(255, 235, 155);
 		border:2px solid white;
 		padding:10px;
+		line-height: 2em;
 }
