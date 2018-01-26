@@ -207,7 +207,7 @@ p{
   background-color: yellow;
   border: solid white;
   padding: 2px;
-  width: 190px;
+  width: 120px;
 }
 @media (min-width:450px) {
     #UC{
