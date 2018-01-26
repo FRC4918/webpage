@@ -198,6 +198,7 @@ h3{
 p{
   background-color: rgb(255, 235, 155);
   border: solid white;
+  padding: 5px;
 }
 .warning{
   background-color: red;
