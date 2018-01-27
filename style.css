@@ -199,6 +199,7 @@ p{
   background-color: rgb(255, 235, 155);
   border: solid white;
   padding: 5px;
+  line-height: 1.75em;
 }
 .warning{
   background-color: red;
