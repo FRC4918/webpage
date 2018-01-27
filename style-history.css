@@ -34,3 +34,8 @@ p{
 		height:120px;
 	}
 }
+@media (max-width: 449px) {
+	#historyI{
+		margin-left: 4px;
+	}
+}

@@ -32,6 +32,9 @@
 			#awardsWrapper{
 				overflow-x: auto;
 			}
+			#awards-activity-links{
+				margin-left: 4px;
+			}
 		}
 		#awards-activity-links{
 			margin: 75 0 75 0px;

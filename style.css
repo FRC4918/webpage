@@ -194,12 +194,23 @@ header{
 
 h3{
   color: rgb(224, 108, 25);
+  font-size: 1.25em;
 }
 p{
+  font-family: sans-serif;
   background-color: rgb(255, 235, 155);
   border: solid white;
   padding: 5px;
   line-height: 1.75em;
+}
+h4{
+  font-size: 1.1em;
+}
+li{
+  font-family: sans-serif;
+}
+table{
+  font-family: sans-serif;
 }
 .warning{
   background-color: red;

@@ -8,6 +8,11 @@
 		margin-right: 10%;
 	}
 }
+@media (max-width: 449px) {
+	#aboutUsWrapper{
+		margin-left: 4px;
+	}
+}
 #aboutUsWrapper{
 	margin-top: 50px;
 	text-indent:3px;
