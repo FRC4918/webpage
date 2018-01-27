@@ -30,3 +30,9 @@
 #downloadbuisnessproposal{
   padding: 10px;
 }
+a img.nobord{
+  padding: 0px;
+}
+.bbord{
+  background-color: rgb(25,25,25);
+}
