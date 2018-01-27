@@ -2,11 +2,12 @@
 	#contactInfo{
 		width:335px;
 		margin-left:10%;
+		margin-right: 10px;
 	}
 }
 @media (max-width: 449px) {
 	#contactInfo{
-		margin-right: 10px;
+
 	}
 }
 #contactInfoT{

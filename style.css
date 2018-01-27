@@ -250,3 +250,8 @@ p{
     height: 106px;
   }
 }
+@media (max-width:449px) {
+  #topBar{
+    margin: 0 auto 0 auto;
+  }
+}
