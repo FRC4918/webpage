@@ -38,6 +38,8 @@
 		}
 		#awards-activity-links{
 			margin: 75 0 75 0px;
+			position: relative;
+			z-index: 10;
 		}
 		#activityT{
 			color: rgb(224, 108, 25);
@@ -46,11 +48,8 @@
 			background-color:rgb(255, 235, 155);
 			height:300px;
 			padding:20px;
-			border:2px solid white;
 			overflow-y: auto;
-	  }
-	  #awards{
-			border:2px solid white;
+			z-index: 10;
 	  }
 	  tr{
 			background-color:rgb(255, 235, 155);
@@ -64,14 +63,14 @@
 	  #links{
 			background-color: rgb(255, 235, 155);
 			padding:20px;
-			border:2px solid white;
+			border:2px solid black;
 			overflow:auto;
 	  }
 		#blank{
 			color: rgb(224, 108, 25);
 		}
     .actim{
-			border: ridge rgb(224, 108, 25);
+			border: ridge black;
 			background-color: white;
 		}
 		#UC{

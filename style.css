@@ -11,58 +11,10 @@
      top: 0px;
      margin-top: 0px;
      height: 96px;
-     /*width: calc(83% - 156px);
-	   left:calc(8.5% + 156px);
-	   top:29px;*/
   }
-   /*#pageCutOffL{
-       position: fixed;
-       top:0px;left:0px;
-       width:8.5%;
-       height:100%;
-       background-color:black;
-       z-index: 3;
-   }
-   #pageCutOffR{
-       position: fixed;
-       top:0px;right:0px;
-       width:8.5%;
-       height:100%;
-       background-color:black;
-       z-index: 3;
-   }
-   */#mainLogo{
-      /*top:50px;
-      left:8.5%;*/
+    #mainLogo{
       left: 0px;
-   }/*
-   .topBar{
-      top: 109px;
-      overflow: hidden;
    }
-   #empty{
-      top: 110px;
-      left: calc(8.5% + 766px);
-      right: 8.3%;
-   }
-   #homeLink{
-      left: calc(8.5% + 156px);
-   }
-   #aboutUsLink{
-      left: calc(8.5% + 245px);
-   }
-   #history{
-      left: calc(8.5% + 370px);
-   }
-   #sponserUs{
-      left: calc(8.5% + 479px);
-   }
-   #contactUs{
-      left: calc(8.5% + 624px);
-   }*/
-   /*#notShown{
-      top: -100px;
-   }*/
    #topBarW{
       left: 152px;
       width: calc(100% - 152px);
@@ -75,25 +27,9 @@
     left:0%;
   }
   #title{
-      /*width: calc(100% - 156px);*/
       top: -21px;
       right: 0px;
       height: 136px;
-  }
-    #pageCutOffL{
-      position: fixed;
-      top:0px;left:0px;
-      width:0%;
-      height:0%;
-      background-color:black;
-  }
-  #pageCutOffR{
-      position: fixed;
-      top:0px;right:0px;
-      width:0%;
-      height:0%;
-      background-color:black;
-      z-index: 1;
   }
   .topBar{
     top: 118px;
@@ -120,9 +56,6 @@
   #contactUs{
      left: 468px;
   }
-/*  #notShown{
-     right:0px;
-  }*/
   #topBarW{
     width: 100%;
   }
@@ -136,41 +69,30 @@
 	  color: rgb(224, 108, 25);
 }
 body {
-    background-color: /*rgb(65, 74, 74)*/black;
+    background-color: black;
     margin: 0px;
-    /*background-color:rgb(7, 74, 74);*/
 }
 .topBar {
-	  background-color: rgb(224, 108, 25);
+	  background-color: rgb(255, 152, 0);
     z-index: 2;
     margin: 0 0 0 24px;
 }
 #title{
-     background-color:rgb(224, 108, 25);
+     background-color:rgb(255, 152, 0);
      padding:20px;
 	   position:absolute;
 	   border:2px solid black;
      z-index: 2;
+     text-shadow: -2px -2px 1px rgb(100,100,100) ;
 }
-/*#empty{
-	  border:2px solid black;
-	  overflow:hidden;
-	  background-color: rgb(224, 108, 25);
-	  padding:15px;
-	  height:27px;
-    z-index: 2
-}*/
-/* #notShown{
-	  border:2px solid black;
-    position:fixed;
-}*/
+
 h2 a{
 	  color:rgb(94, 94, 94);
 	  text-decoration: none;
 }
 h2.active a{
   color: black;
-  /*text-decoration: underline;*/
+  text-shadow: -2px -2px 1px rgb(100,100,100);
 }
 .topBar:hover{
   background-color:rgb(255, 125, 0);
@@ -180,8 +102,8 @@ h2.active a{
   height: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgb(65, 74, 74);
-  padding: 1px
+  background-color: white;
+  padding: 1px;
 }
 header{
   width: 100%;
@@ -193,24 +115,28 @@ header{
 }
 
 h3{
-  color: rgb(224, 108, 25);
+  color: rgb(255, 152, 0);
   font-size: 1.25em;
+  /*text-shadow: -1px -1px rgb(100,100,100);*/
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 p{
   font-family: sans-serif;
   background-color: rgb(255, 235, 155);
-  border: solid white;
+  border: solid black;
   padding: 5px;
   line-height: 1.75em;
 }
 h4{
   font-size: 1.1em;
 }
-li{
+ul{
   font-family: sans-serif;
+  border: solid black;
 }
 table{
   font-family: sans-serif;
+  border: solid black;
 }
 .warning{
   background-color: red;
@@ -221,6 +147,8 @@ table{
   border: solid white;
   padding: 2px;
   width: 120px;
+  position: relative;
+  z-index: 2;
 }
 @media (min-width:450px) {
     #UC{
@@ -232,7 +160,7 @@ table{
     }
   }
   #topBarW{
-    background-color:rgb(224, 108, 25);
+    background-color:rgb(255, 152, 0);
     position:absolute;
     border:2px solid black;
     z-index: 2;
@@ -253,7 +181,7 @@ table{
     height: 192px;
   }
 }
-@media (max-width:595px) {
+@media (max-width:691px) {
   header{
     height: 240px;
   }
@@ -265,4 +193,13 @@ table{
   #topBar{
     margin: 0 auto 0 auto;
   }
+}
+#mainWatermark{
+  position: fixed;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 0;
 }
