@@ -26,13 +26,13 @@
           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
           // Display the result in the element with id="demo"
-          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          document.getElementById("timetostopbulid").innerHTML = days + "d " + hours + "h "
           + minutes + "m " + seconds + "s. " + "Stop building date: Feb 20, 2018, 21:00.";
 
           // If the count down is finished, write some text
           if (distance < 0) {
             clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            document.getElementById("timetostopbulid").innerHTML = "EXPIRED";
           }
         }, 1000);
     </script>
@@ -60,21 +60,27 @@
         <h5 id="UC">This page is in beta</h5>
         <div id="awards-activity-links">
           <div id="activityWrapper">
-            <h3>Time to Stop Build</h3>
-            <p id="demo"></p>
-            <h3>2018 Kick-off video</h3>
-            <iframe width="320" height="180" class="actim" src="https://www.youtube.com/embed/HZbdwYiCY74" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-            <h3 id="activityT">What's happening?</h3>
-      	    <ul id="activity">
-              <li>Testing the elevator<br>That even turns itself off!<br><br><video class="actim" src="images\Elevator.mov" poster="images\Elevator.png" width="150" controls></video> </li>
-              <li>Testing the grabber<br><br><video class="actim" src="images\Grabber.mov" poster="images\Grabber.png" width="150" controls></video> <strong id="blank">_____________________________</strong></li>
-              <li>Our test robot: Push-bot<br><br><img class="actim" src="images\Push-bot.jpg" alt="A picture of our test robot" height="266"><br><strong id="blank">_____________________________</strong></li>
-              <li>Working on our custom gear boxes.<br><br><img class="actim" src="images\Working on gear boxes.JPG" alt="Two team members working on gear boxes" width="150"><br><strong id="blank">_____________________________</strong></li>
-              <li>Our kick-off press release<br><br><a href="Downloads\PressRelease.docx" download><img src="images\downloadpressrelease.png"></a><br><strong id="blank">_____________________________</strong></li>
-              <li>Ri3D day 3<br><br><iframe width="250" class="actim" src="https://www.youtube.com/embed/fRQJxrKkO1w" frameborder="0" allow="encrypted-media" allowfullscreen></iframe><br><br><iframe width="250" class="actim" src="https://www.youtube.com/embed/R8w5FLrORpo" frameborder="0" allow="encrypted-media" allowfullscreen></iframe><br><strong id="blank">_____________________________</strong></li>
-              <li>Ri3D day 2<br><br><iframe width="250" class="actim" src="https://www.youtube.com/embed/2zX-7xX07LI" frameborder="0" allow="encrypted-media" allowfullscreen></iframe><br><strong id="blank">_____________________________</strong></li>
-              <li>Ri3D day 1<br><br><iframe width="250" class="actim" src="https://www.youtube.com/embed/D20vVEWNv6k" frameborder="0" allow="encrypted-media" allowfullscreen></iframe><br><strong id="blank">_____________________________</strong></li>
-      	    </ul>
+            <div id="notrealyactivitybutwhattheheckillputitinhere">
+              <h3>Time to Stop Build</h3>
+              <p id="timetostopbulid"></p>
+              <h3>2018 Kick-off video</h3>
+              <video class="actim" src="images\Kick-offVideo.mp4" poster="images\Kick-offVideo.PNG" width="280" controls></video>
+            </div>
+            <div id="theREALactivity">
+              <h3 id="activityT">What's happening?</h3>
+              <ul id="activity">
+                <li>Testing the elevator<br>That even turns itself off!<br><br><video class="actim" src="images\Elevator.mov" poster="images\Elevator.png" width="150" controls></video><br><strong id="blank">__________________________________________________________</strong></li>
+                <li>Testing the grabber<br><br><video class="actim" src="images\Grabber.mov" poster="images\Grabber.png" width="150" controls></video> <strong id="blank">__________________________________________________________</strong></li>
+                <li>Our test robot: Push-bot<br><br><img class="actim" src="images\Push-bot.jpg" alt="A picture of our test robot" height="266"><br><strong id="blank">__________________________________________________________</strong></li>
+                <li>Working on our custom gear boxes.<br><br><img class="actim" src="images\Working on gear boxes.JPG" alt="Two team members working on gear boxes" width="150"><br><strong id="blank">__________________________________________________________</strong></li>
+                <li>Our kick-off press release<br><br><a href="Downloads\PressRelease.docx" download><img src="images\downloadpressrelease.png"></a><br><strong id="blank">__________________________________________________________</strong></li>
+                <li>Ri3D
+                  <br><br><video class="actim" src="images\TheGreenHorns2018Uncut.mp4" poster="" width="250" controls></video>
+                  <br><br><video class="actim" src="images\Torostest1278.mp4" poster="" width="250" controls></video>
+                  <br><br><video class="actim" src="images\TeamRi3D1.0-'PowerUp'GameStrategyAdvice.mp4" poster="images\Ri3D3.JPG" width="250" controls></video>
+                </li>
+              </ul>
+            </div>
           </div>
           <div id="awardsWrapper">
     	      <h3 id="awardsT"> Awards</h3>
@@ -160,6 +166,18 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-110933082-1');
+
+
+  $("#slideshow > div:gt(0)").hide();
+
+  setInterval(function() {
+    $('#slideshow > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+  },  3000);
 </script>
     </body>
 </html>
