@@ -27,7 +27,7 @@
 
           // Display the result in the element with id="demo"
           document.getElementById("timetostopbulid").innerHTML = days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s. " + "Stop building date: Feb 20, 2018, 21:00.";
+          + minutes + "m " + seconds + "s. " + "Stop building date: <br> Feb 20, 2018, 21:00.";
 
           // If the count down is finished, write some text
           if (distance < 0) {
@@ -64,20 +64,20 @@
               <h3>Time to Stop Build</h3>
               <p id="timetostopbulid"></p>
               <h3>2018 Kick-off video</h3>
-              <video class="actim" src="images\Kick-offVideo.mp4" poster="images\Kick-offVideo.PNG" width="280" controls></video>
+              <video id="kickOffVideo" class="actim" src="images\Kick-offVideo.mp4" poster="images\Kick-offVideo.PNG" controls></video>
             </div>
             <div id="theREALactivity">
               <h3 id="activityT">What's happening?</h3>
               <ul id="activity">
-                <li>Testing the elevator<br>That even turns itself off!<br><br><video class="actim" src="images\Elevator.mov" poster="images\Elevator.png" width="150" controls></video><br><strong id="blank">__________________________________________________________</strong></li>
-                <li>Testing the grabber<br><br><video class="actim" src="images\Grabber.mov" poster="images\Grabber.png" width="150" controls></video> <strong id="blank">__________________________________________________________</strong></li>
-                <li>Our test robot: Push-bot<br><br><img class="actim" src="images\Push-bot.jpg" alt="A picture of our test robot" height="266"><br><strong id="blank">__________________________________________________________</strong></li>
-                <li>Working on our custom gear boxes.<br><br><img class="actim" src="images\Working on gear boxes.JPG" alt="Two team members working on gear boxes" width="150"><br><strong id="blank">__________________________________________________________</strong></li>
-                <li>Our kick-off press release<br><br><a href="Downloads\PressRelease.docx" download><img src="images\downloadpressrelease.png"></a><br><strong id="blank">__________________________________________________________</strong></li>
-                <li>Ri3D
-                  <br><br><video class="actim" src="images\TheGreenHorns2018Uncut.mp4" poster="" width="250" controls></video>
-                  <br><br><video class="actim" src="images\Torostest1278.mp4" poster="" width="250" controls></video>
-                  <br><br><video class="actim" src="images\TeamRi3D1.0-'PowerUp'GameStrategyAdvice.mp4" poster="images\Ri3D3.JPG" width="250" controls></video>
+                <li class="activity">Testing the elevator<br>That even turns itself off!<br><br><video class="actim" src="images\Elevator.mov" poster="images\Elevator.png" width="175" controls></video><br><strong id="blank">__________________________________________________________</strong></li>
+                <li class="activity">Testing the grabber<br><br><video class="actim" src="images\Grabber.mov" poster="images\Grabber.png" width="175" controls></video> <strong id="blank">__________________________________________________________</strong></li>
+                <li class="activity">Our test robot: Push-bot<br><br><img class="actim" src="images\Push-bot.jpg" alt="A picture of our test robot" height="266"><br><strong id="blank">__________________________________________________________</strong></li>
+                <li class="activity">Working on our custom gear boxes.<br><br><img class="actim" src="images\Working on gear boxes.JPG" alt="Two team members working on gear boxes" width="200"><br><strong id="blank">__________________________________________________________</strong></li>
+                <li class="activity">Our kick-off press release<br><br><a href="Downloads\PressRelease.docx" download><img src="images\downloadpressrelease.png"></a><br><strong id="blank">__________________________________________________________</strong></li>
+                <li class="activity">Ri3D
+                  <br><br><video class="actim" src="images\TheGreenHorns2018Uncut.mp4" poster="" width="300" controls></video>
+                  <br><br><video class="actim" src="images\Torostest1278.mp4" poster="" width="300" controls></video>
+                  <br><br><video class="actim" src="images\TeamRi3D1.0-'PowerUp'GameStrategyAdvice.mp4" poster="images\Ri3D3.JPG" width="300" controls></video>
                 </li>
               </ul>
             </div>

@@ -4,9 +4,6 @@
 				flex-flow:row nowrap;
 				justify-content: space-around;
 			}
-			#activityWrapper{
-				width: 25%;
-			}
 			#awardsWrapper{
 				width: 40%;
 				margin-top: 100px;
@@ -16,27 +13,33 @@
 				width: 25%;
 			}
   	}
-		@media (max-width:1199px) AND (min-width:695px){
+		@media (max-width:1199px) AND (min-width:795px){
 				#notrealyactivitybutwhattheheckillputitinhere{
 					float: right;
-				}
-				#activity{
-					margin: 10 30 10 0px;
 				}
 		}
 		@media (min-width:450px) {
 			#linksWrapper{
 				width: 250px;
 			}
+			#kickOffVideo{
+				width: 350px;
+			}
 			#awards-activity-links{
-				margin-left: 5%;
-				margin-right: 5%;
+				margin-left: 1%;
+				margin-right: 1%;
 			}
 			#activity{
-				width: 300px;
+				width: 400px;
+			}
+			#timetostopbulid{
+				width: 350px;
 			}
 		}
-		@media (max-width:499px) {
+		@media (max-width:449px) {
+			#kickOffVideo{
+				width: 100%;
+			}
 			#awardsWrapper{
 				overflow-x: auto;
 			}
@@ -50,13 +53,10 @@
 			position: relative;
 			z-index: 10;
 		}
-		#activityT{
-			color: rgb(224, 108, 25);
-	  }
 	  #activity{
 			background-color:rgb(255, 235, 155);
-			height:300px;
-			padding:20px;
+			height:400px;
+			padding:15px 0px 0px 0px;
 			overflow-y: auto;
 			overflow-x: hidden;
 			z-index: 10;
@@ -64,21 +64,12 @@
 	  tr{
 			background-color:rgb(255, 235, 155);
 	  }
-	  #awardsT{
-			color:rgb(224, 108, 25);
-	  }
-	  #linksT{
-			color: rgb(224, 108, 25);
-	  }
 	  #links{
 			background-color: rgb(255, 235, 155);
 			padding:20px;
 			border:2px solid black;
 			overflow: auto;
 	  }
-		#blank{
-			color: rgb(224, 108, 25);
-		}
     .actim{
 			border: ridge black;
 			background-color: white;
@@ -86,22 +77,9 @@
 		#UC{
 			margin-left: 5%;
 		}
-		#timetostopbulid{
-			width: 280px;
+		.activity{
+			text-align: center;
 		}
-		#slideshow {
-		    margin: 50px auto;
-		    position: relative;
-		    width: 240px;
-		    height: 240px;
-		    padding: 10px;
-		    box-shadow: 0 0 20px rgba(0,0,0,0.4);
-		}
-
-		#slideshow > div {
-		    position: absolute;
-		    top: 10px;
-		    left: 10px;
-		    right: 10px;
-		    bottom: 10px;
+		#blank{
+		  color: rgb(255, 152, 0);
 		}

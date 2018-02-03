@@ -17,6 +17,7 @@
   margin-top: 50px;
   position: relative;
   z-index: 2;
+  line-height: 1.5em;
 }
 .logo{
   margin-left: 4px;
@@ -25,9 +26,6 @@
   border: 5px inset /*ridge rgb(224, 108, 25)*/black;
   background-color: white;
   padding: 5px;
-}
-#sponsors{
-  color: rgb(224, 108, 25);
 }
 #downloadbuisnessproposal{
   padding: 10px;
