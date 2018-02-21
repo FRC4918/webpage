@@ -1,0 +1,19 @@
+#header{
+  position: relative;
+  z-index: 100;
+}
+#eventsW{
+  max-width: 900px;
+  margin: 50px auto 50px auto;
+}
+.event{
+  margin: 20px;
+  position: relative;
+  z-index: 100;
+}
+.eventi{
+  position: relative;
+  z-index: 100;
+  margin: 10px;
+  text-indent: 30px;
+}
