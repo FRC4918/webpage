@@ -26,7 +26,7 @@
           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
           // Display the result in the element with id="demo"
-          document.getElementById("timetostopbulid").innerHTML = days + "d " + hours + "h "
+          document.getElementById("timetostopbulid").innerHTML = "Time to Stop Build:" + days + "d " + hours + "h "
           + minutes + "m " + seconds + "s. " + "Stop building date: <br> Feb 20, 2018, 21:00 Pacific Time.";
 
           // If the count down is finished, write some text
@@ -61,7 +61,7 @@
         <div id="awards-activity-links">
           <div id="activityWrapper">
             <div id="notrealyactivitybutwhattheheckillputitinhere">
-              <h3>Time to Stop Build</h3>
+              <h3>Pending Events</h3>
               <p id="timetostopbulid"></p>
               <h3>2018 Kick-off video</h3>
               <video id="kickOffVideo" class="actim" src="images\Kick-offVideo.mp4" poster="images\Kick-offVideo.PNG" controls></video>
