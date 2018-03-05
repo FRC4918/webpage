@@ -79,3 +79,8 @@
 		.blank{
 		  color: rgb(255, 152, 0);
 		}
+		#twitch-embed{
+			position: relative;
+			z-index: 100;
+			margin: 10px;
+		}
