@@ -26,14 +26,15 @@
           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
           // Display the result in the element with id="demo"
-          document.getElementById("timetostopbulid").innerHTML = "Time to Stop Build: " + days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s. " + "Stop building date: <br> Feb 20, 2018, 21:00 Pacific Time.";
-
+          if (distance > 0) {
+            document.getElementById("timetostopbulid").innerHTML = "Time to Stop Build: " + days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s. " + "Stop building date: <br> Feb 20, 2018, 21:00 Pacific Time.";
+          }
           // If the count down is finished, write some text
-          if (distance < 0) {
+          /*if (distance < 0) {
             clearInterval(x);
             document.getElementById("timetostopbulid").innerHTML = "It is now officialy competition season! <br> We will be having a reveal event on March 3rd. For more information, click <a href='Events.html'>here</a>.";
-          }
+          }*/
         }, 1000);
     </script>
     </head>
@@ -62,7 +63,34 @@
           <div id="activityWrapper">
             <div id="notrealyactivitybutwhattheheckillputitinhere">
               <h3>Pending Events</h3>
-              <p id="timetostopbulid"></p>
+              <p id="timetostopbulid"> It is now officialy competion season!</p>
+                   <!-- Add a placeholder for the Twitch embed -->
+                  <div id="twitch-embed"></div>
+
+                  <!-- Load the Twitch embed script -->
+                  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+                  <!--
+                    Create a Twitch.Embed object that will render
+                    within the "twitch-embed" root element.
+                  -->
+                  <script type="text/javascript">
+                    var embed = new Twitch.Embed("twitch-embed", {
+                      width: 327,
+                      height: 180,
+                      channel: "2018 FRC PNW District Week 1 - Mount Vernon Event",
+                      layout: "video",
+                      autoplay: false
+                    });
+
+                    embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+                      var player = embed.getPlayer();
+                      player.play();
+                    });
+                  </script>
+                <p>
+                  Don't miss us on the 23rd-25th!
+                </p>
               <h3>2018 Kick-off video</h3>
               <video id="kickOffVideo" class="actim" src="images\Kick-offVideo.mp4" poster="images\Kick-offVideo.PNG" controls></video>
             </div>
@@ -158,30 +186,6 @@
         </ul>
       </div>
     </div>
-    <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
-
-    <!-- Load the Twitch embed script -->
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-    <!--
-      Create a Twitch.Embed object that will render
-      within the "twitch-embed" root element.
-    -->
-    <script type="text/javascript">
-      var embed = new Twitch.Embed("twitch-embed", {
-        width: 427,
-        height: 240,
-        channel: "2018 FRC PNW District Week 1 - Mount Vernon Event",
-        layout: "video",
-        autoplay: false
-      });
-
-      embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-        var player = embed.getPlayer();
-        player.play();
-      });
-    </script>
     <footer>
       <div id="awardsFl">
         <h3>Awards</h3>
