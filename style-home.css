@@ -24,6 +24,7 @@
 			}
 			#kickOffVideo{
 				width: 350px;
+				margin: 5px;
 			}
 			#awards-activity-links{
 				margin-left: 1%;
@@ -82,5 +83,4 @@
 		#twitch-embed{
 			position: relative;
 			z-index: 100;
-			margin: 10px;
 		}
