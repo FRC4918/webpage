@@ -1,19 +1,4 @@
-		@media (min-width: 1200px) {
-			#awards-activity-links{
-				display: flex;
-				flex-flow:row nowrap;
-				justify-content: space-around;
-			}
-			#awardsWrapper{
-				width: 40%;
-				margin-top: 100px;
-			}
-			#linksWrapper{
-				margin-top: 50px;
-				width: 25%;
-			}
-  	}
-		@media (max-width:1199px) AND (min-width:795px){
+		@media(min-width:795px){
 				#notrealyactivitybutwhattheheckillputitinhere{
 					float: right;
 				}
