@@ -84,3 +84,8 @@
 			position: relative;
 			z-index: 100;
 		}
+		#twitch-embed{
+			border: 2px solid black;
+			width: 324px;
+			height: 184px;
+		}
