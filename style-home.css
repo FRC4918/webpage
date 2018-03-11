@@ -3,6 +3,15 @@
 					float: right;
 				}
 		}
+		@media (max-width: 794px) AND (min-width: 450px){
+				#linksWrapper{
+					margin: auto;
+				}
+				#activityWrapper{
+					margin: auto;
+					width: 400px;
+				}
+		}
 		@media (min-width:450px) {
 			#linksWrapper{
 				width: 275px;
