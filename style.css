@@ -1,11 +1,9 @@
 *{
   box-sizing: border-box;
 }
-
 @media (min-width: 975px) {
   header{
      height: 136px;
-
   }
   #title{
      width: calc(100% - 152px);
@@ -93,6 +91,7 @@ body {
 	  background-color: rgb(255, 152, 0);
     z-index: 2;
     margin: 0 0 0 24px;
+    padding: 3px;
 }
 #title{
      background-color:rgb(255, 152, 0);
@@ -223,7 +222,7 @@ table{
     height: 192px;
   }
 }
-@media (max-width:691px) {
+@media (max-width:723px) {
   header{
     height: 240px;
   }

@@ -18,6 +18,8 @@
   position: relative;
   z-index: 2;
   line-height: 1.5em;
+  display: flex;
+  flex-flow:row wrap;
 }
 .logo{
   margin-left: 4px;
@@ -45,4 +47,14 @@ h3{
 #donate{
   position: relative;
   z-index: 2;
+}
+.sponsornames{
+  background-color: rgb(255, 152, 0);
+  width: 150px;
+  text-align: center;
+  border: 5px solid black;
+  margin: 5px;
+}
+#sponsors{
+  margin-left: 100px;
 }
