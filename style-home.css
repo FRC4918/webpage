@@ -87,6 +87,6 @@
 			margin-left: 5px;
 		}
 		#timetostopbulid{
-			height: 400px;
+			max-height: 400px;
 			overflow: auto;
 		}
