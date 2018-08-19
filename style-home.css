@@ -2,6 +2,10 @@
 				#notrealyactivitybutwhattheheckillputitinhere{
 					float: right;
 				}
+				#awards{
+					margin: auto;
+					max-width: 900px;
+				}
 		}
 		@media (max-width: 794px) AND (min-width: 450px){
 				#linksWrapper{
@@ -59,6 +63,12 @@
 	  tr{
 			background-color:rgb(255, 235, 155);
 	  }
+		th{
+			padding: 10px;
+		}
+		td{
+			padding: 4px;
+		}
 	  #links{
 			background-color: rgb(255, 235, 155);
 			padding:20px;
