@@ -330,3 +330,11 @@ h2.footeritem{
 .cs{
   width: 327px;
 }
+@media (max-width: 402px) {
+  header{
+    height: 260px;
+  }
+  #topBarW{
+    height: 126px;
+  }
+}
