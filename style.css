@@ -316,6 +316,10 @@ h2.footeritem{
   text-align: right;
 }
 .actim{
+  border: ridge black;
+  background-color: white;
+}
+.actim18{
   border: ridge yellow;
   background-color: white;
 }

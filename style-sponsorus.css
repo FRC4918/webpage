@@ -56,5 +56,7 @@ h3{
   margin: 5px;
 }
 #sponsors{
+  position: relative;
   margin-left: 100px;
+  z-index: 100;
 }
