@@ -1,0 +1,33 @@
+  var money =17000;
+  var diffA;
+  var scaleMoney;
+  var scaleMoneyCurve;
+  stroke(0, 0, 0);
+  scaleMoney=money/195.65217;
+  if(scaleMoney>232){scaleMoney=232;}
+  scaleMoneyCurve=(money-45400)/7.519489;
+  diffA = 281-scaleMoney;
+  background(255, 255, 255);
+  fill(255, 255, 255);
+  ellipse(200,54,74,74);
+  rect(162,50,75,231);
+  stroke(255, 255, 255);
+  rect(164,50,71,231);
+  stroke(0, 0, 0);
+  fill(255, 0, 0);
+  ellipse(200,330,125,125);
+  fill(0, 0, 0);
+  text("0", 250,285);
+  line(245,280,230,280);
+  text("50,000 - Going to Worlds", 250,22);
+  line(200,16,245,16);
+  text("30,000 - Basic fund needs", 250,133);
+  line(245,128,230,128);
+  text("15,000", 250,209);
+  line(245,204,230,204);
+  text("40,000", 250,81);
+  line(245,77,230,77);
+  stroke(255, 0, 0);
+  fill(255, 0, 0);
+  rect(163,diffA,73,scaleMoney);
+  if(scaleMoneyCurve>0){arc(200,49,71,scaleMoneyCurve,181,360);}
