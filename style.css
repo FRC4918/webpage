@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-@media (min-width: 975px) {
+@media (min-width: 990px) {
   header{
      height: 136px;
   }
@@ -23,7 +23,7 @@
    }
 
 }
-@media (max-width:974px) {
+@media (max-width:989px) {
   #mainLogo{
     top:0%;
     left:0%;
@@ -218,12 +218,12 @@ table{
     height: 58px;
   }
 }
-@media (min-width:595px) and (max-width: 974px) {
+@media (min-width:595px) and (max-width: 989px) {
   header{
     height: 192px;
   }
 }
-@media (max-width:723px) {
+@media (max-width:835px) {
   header{
     height: 240px;
   }
@@ -330,7 +330,7 @@ h2.footeritem{
 .cs{
   width: 327px;
 }
-@media (max-width: 402px) {
+@media (max-width: 481px) {
   header{
     height: 260px;
   }
