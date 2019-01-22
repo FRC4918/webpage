@@ -35,14 +35,14 @@
               + minutes + "min. " + seconds + "sec." + "<br>Kick-off date:<br> Jan 6, 2019, 7:30am Pacific Time.";
             }
             else {
-              document.getElementById("timetostopbulid").innerHTML = "Build Season End! <br>  " + days + " days " + hours + "hr "
-              + minutes + "min. " + seconds + "sec. " + "<br>Build Season End date: <br> Feb 19, 2019, 8:59pm Pacific Time.";
+              document.getElementById("timetostopbulid").innerHTML = "Time until build season end: <br>  " + days + " days " + hours + "hr "
+              + minutes + "min. " + seconds + "sec. " + "<br>Build Season End date: <br> Feb 19, 2019, 8:59pm Pacific Time.<br><br>After the build season end, we will have a robot reveal on the 23rd of Febuary. Sponsors can come from 12:00-5:00pm and the general public are invited to join us starting at 2:00. See you all soon!";
             }
           }
           // If the count down is finished, write some text
           if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timetostopbulid").innerHTML = "It is now the end of build season! We will be having an open house Febuary 23rd to show case our robot!";
+            document.getElementById("timetostopbulid").innerHTML = "It is now the end of build season! <br><br>We will have a robot reveal on the 23rd. Sponsors can come from 12:00-5:00pm and the general public are invited to join us starting at 2:00. See you all soon!";
           }
         }, 1000);
     </script>
@@ -64,33 +64,13 @@
       </header>
       <div class="wrapper">
         <img id="mainWatermark" src="images\Watermark3.png" alt="watermark">
-        <h5 id="UC">This page is in beta</h5>
         <div id="awards-activity-links">
           <div id="activityWrapper">
             <div id="notrealyactivitybutwhattheheckillputitinhere">
               <h3>Pending Events</h3>
               <p id="timetostopbulid" class="cs"></p>
-              <!--<div id="video"></div>
-                  <div id="twitch-embed"></div>
-                  <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-                  <script type="text/javascript">
-                    var embed = new Twitch.Embed("twitch-embed", {
-                      width: 320,
-                      height: 180,
-                      channel: "FIRSTWA_Blue",
-                      layout: "video",
-                      autoplay: false
-                    });
-
-                    embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-                      var player = embed.getPlayer();
-                      player.play();
-                    });
-                  </script>-->
-              <!--<h3>2018 Kick-off video</h3>
-              <video id="kickOffVideo" class="actim" src="images\Kick-offVideo.mp4" poster="images\Kick-offVideo.PNG" controls></video>
-              <p id="kovt"><a target="_blank" href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system">The rulesbook</a> provides more information.</p>-->
+              <h3>Kick off video!</h3>
+              <video class='actim19' src='images\Kick-offVideo 2019.mp4' width='300' controls></video>
             </div>
             <div id="theREALactivity">
               <h3 id="activityT">What's happening?</h3>
