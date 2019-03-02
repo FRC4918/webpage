@@ -20,6 +20,16 @@
   line-height: 1.5em;
   display: flex;
   flex-flow:row wrap;
+  max-width: 750px;
+}
+#psponsorLogos{
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+  line-height: 1.5em;
+  display: flex;
+  flex-flow:row wrap;
+  max-width: 750px;
 }
 .logo{
   margin-left: 4px;
