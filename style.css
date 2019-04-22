@@ -327,6 +327,10 @@ h2.footeritem{
   border: ridge white;
   background-color: white;
 }
+.actim20{
+  border: ridge silver;
+  background-color: silver;
+}
 .cs{
   width: 327px;
 }
