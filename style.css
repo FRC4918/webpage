@@ -328,8 +328,8 @@ h2.footeritem{
   background-color: white;
 }
 .actim20{
-  border: ridge purple;
-  background-color: purple;
+  border: ridge rgb(255,0,255);
+  background-color: rgb(255,0,255);
 }
 .cs{
   width: 327px;
