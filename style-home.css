@@ -1,102 +1,114 @@
-		@media(min-width:795px){
-				#notrealyactivitybutwhattheheckillputitinhere{
-					float: right;
-				}
-				#awards{
-					margin: auto;
-					max-width: 900px;
-				}
-		}
-		@media (max-width: 794px) AND (min-width: 450px){
-				#linksWrapper{
-					margin: auto;
-				}
-				#activityWrapper{
-					margin: auto;
-					width: 400px;
-				}
-		}
-		@media (min-width:450px) {
-			#linksWrapper{
-				width: 275px;
-			}
-			#kickOffVideo{
-				width: 350px;
-				margin: 5px;
-			}
-			#awards-activity-links{
-				margin-left: 1%;
-				margin-right: 1%;
-			}
-			#activity{
-				width: 400px;
-			}
-			#timetostopbulid{
-				width: 350px;
-			}
-		}
-		@media (max-width:449px) {
-			#kickOffVideo{
-				width: 100%;
-			}
-			#awardsWrapper{
-				overflow-x: auto;
-			}
-			#awards-activity-links{
-				margin-left: 4px;
-				width: 90%;
-			}
-		}
-		#awards-activity-links{
-			margin: 75 0 75 0px;
-			position: relative;
-			z-index: 10;
-		}
-	  #activity{
-			background-color:rgb(255, 235, 155);
-			/*height:400px;---overflow*/height: 550px;
-			padding:15px 0px 0px 0px;
-			overflow-y: auto;
-			overflow-x: hidden;
-			z-index: 10;
-	  }
-	  tr{
-			background-color:rgb(255, 235, 155);
-	  }
-		th{
-			padding: 10px;
-		}
-		td{
-			padding: 4px;
-		}
-	  #links{
-			background-color: rgb(255, 235, 155);
-			padding:20px;
-			border:2px solid black;
-			overflow: auto;
-	  }
-		#UC{
-			margin-left: 5%;
-		}
-		.activity{
-			text-align: center;
-		}
-		.blank{
-		  color: rgb(255, 152, 0);
-		}
-		#twitch-embed{
-			position: relative;
-			z-index: 100;
-		}
-		#twitch-embed{
-			border: 2px solid black;
-			width: 324px;
-			height: 184px;
-		}
-		#kovt{
-			margin-left: 5px;
-		}
-		#timetostopbulid{
-			max-height: 350px;
-			overflow: auto;
-		}
+@media(min-width:795px){
+	#notrealyactivitybutwhattheheckillputitinhere{
+		float: right;
+	}
+}
+@media (min-width:833px) {
+	#awards{
+		max-width: 400px;
+	}
+}
+@media (max-width:832px) {
+	#awards{
+		margin: auto;
+	}
+}
+@media (max-width: 794px) AND (min-width: 450px){
+	#linksWrapper{
+		margin: auto;
+	}
+	#activityWrapper{
+		margin: auto;
+		width: 400px;
+	}
+}
+@media (min-width:450px) {
+	#linksWrapper{
+		width: 275px;
+	}
+	#kickOffVideo{
+		width: 350px;
+		margin: 5px;
+	}
+	#awards-activity-links{
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	#activity{
+		width: 400px;
+	}
+	#timetostopbulid{
+		width: 350px;
+	}
+}
+@media (max-width:449px) {
+	#kickOffVideo{
+		width: 100%;
+	}
+	#awardsWrapper{
+		overflow-x: auto;
+	}
+	#awards-activity-links{
+		margin-left: 4px;
+		width: 90%;
+	}
+}
+#awards-activity-links{
+	margin: 75 0 75 0px;
+	position: relative;
+	z-index: 10;
+}
+#activity{
+	background-color:rgb(255, 235, 155);
+	/*height:400px;---overflow*/height: 550px;
+	padding:15px 0px 0px 0px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 10;
+}
+tr{
+	background-color:rgb(255, 235, 155);
+}
+th{
+	padding: 10px;
+}
+td{
+	padding: 4px;
+}
+#links{
+	background-color: rgb(255, 235, 155);
+	padding:20px;
+	border:2px solid black;
+	overflow: auto;
+}
+#UC{
+	margin-left: 5%;
+}
+.activity{
+	text-align: center;
+}
+.blank{
+  color: rgb(255, 152, 0);
+}
+#twitch-embed{
+	position: relative;
+	z-index: 100;
+}
+#twitch-embed{
+	border: 2px solid black;
+	width: 324px;
+	height: 184px;
+}
+#kovt{
+	margin-left: 5px;
+}
+#timetostopbulid{
+	max-height: 350px;
+	overflow: auto;
+}
+#awardsWrapper{
+	float: left;
+}
+#cntct{
+	max-width: 400px;
+}
